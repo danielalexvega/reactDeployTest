@@ -44,6 +44,7 @@ function Search() {
   const handleReset = event => {
     event.preventDefault();
     setFilteredEmployees(employees);
+    setSearch("");
   }
 
   return (
